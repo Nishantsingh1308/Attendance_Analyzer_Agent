@@ -3,13 +3,20 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
-from datetime import datetime
 import os
 
-# File path (you can allow user to pick different files later)
+# --- CONFIG ---
 FILE_PATH = "data/processed/structured_attendance_with_status.csv"
 
-# Load Data
+# --- PAGE SETUP ---
+st.set_page_config(
+    page_title="Attendance Analyzer Dashboard",
+    layout="centered"
+)
+
+st.title("📊 Attendance Analyzer Dashboard")
+
+# --- LOAD DATA ---
 @st.cache_data
 def load_data():
     if not os.path.exists(FILE_PATH):
@@ -18,14 +25,12 @@ def load_data():
 
 df = load_data()
 
-st.set_page_config(page_title="Attendance Dashboard", layout="centered")
-st.title("📊 Attendance Analyzer Dashboard")
-
 if df is None:
-    st.error("No processed attendance file found.")
+    st.warning("⚠️ No attendance data found. Make sure the file exists at:")
+    st.code(FILE_PATH)
 else:
-    # Stats
-    st.subheader("🧮 Summary")
+    # --- SUMMARY STATS ---
+    st.subheader("🧾 Attendance Summary")
     total = len(df)
     status_counts = df['Attendance Status'].value_counts().to_dict()
 
@@ -33,11 +38,13 @@ else:
     with col1:
         st.metric("Total Students", total)
     with col2:
+        st.write("### Status Breakdown")
         for status in ["Present", "Late", "Absent", "On Leave"]:
-            st.write(f"**{status}**: {status_counts.get(status, 0)}")
+            st.markdown(f"- **{status}**: {status_counts.get(status, 0)}")
 
-    # Pie Chart
+    # --- PIE CHART ---
     st.subheader("📈 Attendance Pie Chart")
+
     labels = []
     sizes = []
     colors = {
@@ -54,11 +61,11 @@ else:
             sizes.append(count)
 
     fig, ax = plt.subplots()
-    ax.pie(sizes, labels=labels, colors=[colors[s] for s in labels], autopct='%1.1f%%', startangle=90)
-    ax.axis('equal')
+    ax.pie(sizes, labels=labels, colors=[colors[s] for s in labels],
+           autopct="%1.1f%%", startangle=90)
+    ax.axis("equal")
     st.pyplot(fig)
 
-    # Raw Data
+    # --- RAW DATA TABLE ---
     with st.expander("📋 View Full Attendance Table"):
-        st.dataframe(df)
-
+        st.dataframe(df, use_container_width=True)
