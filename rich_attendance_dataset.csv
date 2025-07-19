@@ -1,0 +1,59 @@
+Employee ID,Name,Department,Time In,Time Out,Leave Type,Remarks,Date
+EMP8702,John Doe,Marketing,10:33,17:57,,Missed bus,2025-06-21
+EMP1474,Jane Smith,IT,09:13,16:59,,,2025-06-21
+EMP8323,Bob Williams,IT,09:09,17:38,,,2025-06-21
+EMP6661,Alice Johnson,Marketing,08:43,16:40,,,2025-06-21
+EMP3408,Michael Lee,Finance,09:50,16:47,,,2025-06-21
+EMP7611,Priya Sharma,Finance,09:53,17:45,,,2025-06-21
+EMP5776,Amit Verma,Admin,10:53,17:56,,Traffic jam,2025-06-21
+EMP6002,Sara Khan,Admin,,,Maternity Leave,No reason given,2025-06-21
+EMP3295,Rajesh Kumar,HR,10:10,16:51,,Overslept,2025-06-21
+EMP7773,Emily Davis,Admin,09:19,16:41,,,2025-06-21
+EMP6811,Karan Mehta,Finance,09:39,17:21,,,2025-06-21
+EMP5249,Divya Patel,Finance,09:23,17:56,,,2025-06-21
+EMP3356,Ravi Singh,Finance,10:48,17:08,,Traffic jam,2025-06-21
+EMP1940,Neha Gupta,Marketing,09:33,17:13,,,2025-06-21
+EMP3410,Vikram Malhotra,Marketing,09:28,16:34,,,2025-06-21
+EMP9996,Sneha Reddy,HR,09:28,16:38,,,2025-06-21
+EMP8709,Arjun Das,Engineering,,,Casual Leave,Not feeling well,2025-06-21
+EMP6914,Meera Nair,Finance,10:32,16:48,,Missed bus,2025-06-21
+EMP5549,Rohan Joshi,Marketing,09:08,17:25,,,2025-06-21
+EMP4063,Anjali Iyer,Engineering,10:39,17:21,,Missed bus,2025-06-21
+EMP7028,Siddharth Rao,Marketing,08:51,16:51,,,2025-06-21
+EMP3292,Pooja Bhatt,Finance,09:20,16:33,,,2025-06-21
+EMP1749,Kunal Kapoor,IT,09:47,17:12,,,2025-06-21
+EMP8314,Ritika Jain,Admin,10:31,16:45,,Overslept,2025-06-21
+EMP2110,Manoj Pillai,Marketing,09:53,17:26,,,2025-06-21
+EMP6728,Tanya Verma,Marketing,09:03,17:17,,,2025-06-21
+EMP4967,Yash Sharma,Finance,,,Work From Home,Personal emergency,2025-06-21
+EMP2097,Isha Malhotra,Marketing,09:55,16:55,,,2025-06-21
+EMP2103,Nikhil Roy,Marketing,09:32,17:11,,,2025-06-21
+EMP2984,Simran Kaur,IT,09:42,17:40,,,2025-06-21
+EMP6574,Tarun Sethi,Engineering,,,,On leave,2025-06-21
+EMP2928,Ayesha Sheikh,Admin,09:01,16:49,,,2025-06-21
+EMP6878,Deepak Chauhan,Finance,09:00,16:48,,,2025-06-21
+EMP3314,Nikita Sharma,Admin,08:35,16:57,,,2025-06-21
+EMP2747,Harshit Bansal,Admin,09:45,16:48,,,2025-06-21
+EMP6935,Rekha Yadav,HR,08:51,17:19,,,2025-06-21
+EMP6915,Aditya Sinha,Admin,,,Work From Home,Personal emergency,2025-06-21
+EMP4602,Shruti Rao,IT,10:37,16:46,,Overslept,2025-06-21
+EMP8004,Farhan Ali,Engineering,09:33,17:47,,,2025-06-21
+EMP8433,Payal Mehta,Engineering,10:32,17:33,,Doctor appointment,2025-06-21
+EMP4849,Raj Malhotra,Engineering,10:22,17:21,,Doctor appointment,2025-06-21
+EMP9115,Lakshmi Menon,Admin,,,Maternity Leave,Travel issues,2025-06-21
+EMP9962,Sameer Khan,Marketing,09:09,17:02,,,2025-06-21
+EMP7107,Vidya Patel,IT,10:52,17:25,,Overslept,2025-06-21
+EMP9712,Jayant Mishra,Engineering,08:57,16:46,,,2025-06-21
+EMP4850,Rina D'Souza,Engineering,09:12,17:10,,,2025-06-21
+EMP3672,Om Prakash,Marketing,10:35,17:24,,Traffic jam,2025-06-21
+EMP8368,Bhavna Seth,Engineering,08:45,17:15,,,2025-06-21
+EMP7313,Devansh Kulkarni,Finance,08:49,16:30,,,2025-06-21
+EMP9784,Trisha Das,Marketing,08:36,16:45,,,2025-06-21
+EMP8741,Kabir Singh,IT,09:19,16:51,,,2025-06-21
+EMP3840,Lata Joshi,Finance,,,Maternity Leave,Not feeling well,2025-06-21
+EMP6493,Aarav Mehta,HR,10:34,17:13,,Overslept,2025-06-21
+EMP4099,Saanvi Nair,Engineering,09:25,17:27,,,2025-06-21
+EMP4400,Zoya Rehman,HR,10:45,17:13,,Missed bus,2025-06-21
+EMP5672,Vivaan Kapoor,IT,09:39,17:35,,,2025-06-21
+EMP3961,Mira Chauhan,IT,09:18,18:00,,,2025-06-21
+EMP9603,Parth Yadav,Marketing,08:39,16:41,,,2025-06-21

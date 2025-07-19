@@ -6,7 +6,7 @@ import os
 # CONFIGURE THESE
 EMAIL_SENDER = "myshant150@gmail.com"
 EMAIL_PASSWORD = "hjqz trdi vton apzs"
-EMAIL_RECEIVER = "myshant150@gmail.com"
+EMAIL_RECEIVER = "aayushichaudhary530602@gmail.com"
 
 def send_attendance_email():
     today = datetime.today().strftime('%Y%m%d')
